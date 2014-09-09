@@ -40,6 +40,7 @@ Optimizer.prototype.pngquant = function () {
   args.push('--ext=.png');
   args.push('--speed=1');
   args.push('--force');
+  args.push('--quality=80-100');
   args.push('256');
   args.push(this.tmp);
 
